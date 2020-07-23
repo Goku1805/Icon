@@ -55,43 +55,68 @@ table {
  */
 .container{
 	
-	
-	
+	display: flex;
+	background-color:rgb(250, 251, 252);
+	flex-wrap: wrap;
+	height: auto;
 }
 
 .heading{
-	
+	flex: 0 1 100%;
+	text-align: center;
+	font-family: 'Prata', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	color:rgb(0, 44, 91);
+	letter-spacing:-2.4px;
 
 }
-div h6 {
-	
-}
-div p {
-	
 
+/*
+ * ===================================
+ * IconBox
+ * ===================================
+ */
+.iconbox{
+	display: flex;
+	flex: 1 0 33.33%;
+	margin-bottom: .5em;
+    letter-spacing: 0.05em;
+    
 
 }
 /*
  * ===================================
- * Icon 1
+ *  icon
  * ===================================
  */
-.icon1{
-	
+.iconbox#icon{
+	font:size:30px;
 }
 /*
  * ===================================
- * Icon 2
+ * content p
  * ===================================
  */
-.icon2{
-	
-}
-/*
+ #content p{
+ 	color: rgb(119, 119, 119);
+ 	font-size: 15px;
+ 	text-align: left;
+ 	margin-bottom: 24px;
+ 	line-height: 2;
+ 	margin-block-end:24px;
+
+
+ }
+ /*
  * ===================================
- * Icon 3
+ * content h6
  * ===================================
  */
-.icon3{
-	
-}
+ #content h6{
+ 	margin-bottom:7.5px;
+ 	font-weight: 600;
+ 	font-family: 'Popins', serif;
+ 	color:rgb(34, 34, 34);
+
+ }
