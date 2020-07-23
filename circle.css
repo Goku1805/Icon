@@ -1,0 +1,15 @@
+.container{
+	background-color: #777;
+	width:100%;
+	height:500px ;
+	display: flex;
+	
+	
+}
+
+.container > .heading{
+	flex:5;
+}
+.icon1{}
+.icon2{}
+.icon3{}
