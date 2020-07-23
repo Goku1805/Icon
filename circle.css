@@ -54,14 +54,11 @@ table {
  * ===================================
  */
 .container{
-	
+	font-family: 'Poppins', sans-serif;
 	display: flex;
 	background-color:rgb(250, 251, 252);
 	flex-wrap: wrap;
 	height: auto;
-	justify-content: center;
-	align-items: center;
-	width: 1200px;
 }
 
 .heading{
@@ -83,45 +80,53 @@ table {
  */
 .iconbox{
 	display: flex;
+	flex-flow: row;
 	flex: 1 0 33.33%;
 	margin-bottom: .5em;
-    letter-spacing: 0.05em;
-    flex-direction: row;
-    justify-content: center;
-    
-
+  	letter-spacing: 0.05em;
 }
-#icon > i {
 
-	font-size: 40px;
-	margin:30px 30px;
+.iconbox-icon i {
+	font-size: 30px;
+	margin:30px 10px;
+	background: lightblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 30px
+  	
+}
+
+.iconbox-content p{
+	color: rgb(119, 119, 119);
+	font-size: 15px;
+	margin-bottom: 15px;
+	line-height: 2em;
+	font-family: 'Poppins', sans-serif;
 	
 }
-/*
- * ===================================
- * content p
- * ===================================
- */
- #content p{
- 	color: rgb(119, 119, 119);
- 	font-size: 15px;
- 	text-align: left;
- 	margin-bottom: 24px;
- 	line-height: 2;
- 	font-family: 'Poppins', serif;
- 	margin-block-end:24px;
 
+.iconbox-content h6{
+	margin-bottom:7.5px;
+	font-size: 18px;
+	font-weight: 600;
+	color:rgb(34, 34, 34);
+	font-family: 'Poppins', sans-serif;
+}
 
- }
- /*
- * ===================================
- * content h6
- * ===================================
- */
- #content h6{
- 	margin-bottom:7.5px;
- 	font-weight: 600;
- 	font-family: 'Poppins', serif;
- 	color:rgb(34, 34, 34);
+.iconbox-right {
+	flex-flow: row-reverse;
+}
 
- }
+.iconbox-right .iconbox-content {
+	text-align: right;
+}
+.iconbox-top {
+	flex-flow: column-reverse;
+}
+.iconbox-top .iconbox-content{
+	text-align: left;	
+}
