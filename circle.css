@@ -69,6 +69,7 @@ table {
 	font-weight: 400;
 	color:rgb(0, 44, 91);
 	letter-spacing:-2.4px;
+	margin:70px;
 
 }
 
@@ -85,13 +86,9 @@ table {
     
 
 }
-/*
- * ===================================
- *  icon
- * ===================================
- */
-.iconbox#icon{
-	font:size:30px;
+#icon > i {
+	font-size: 40px;
+	margin:30px 30px;
 }
 /*
  * ===================================
