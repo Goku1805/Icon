@@ -54,7 +54,7 @@ table {
  * ===================================
  */
 .container{
-	
+	font-family: 'Poppins', sans-serif;
 	display: flex;
 	background-color:rgb(250, 251, 252);
 	flex-wrap: wrap;
@@ -80,40 +80,35 @@ table {
  */
 .iconbox{
 	display: flex;
+	flex-flow: row;
 	flex: 1 0 33.33%;
 	margin-bottom: .5em;
-    letter-spacing: 0.05em;
-    
-
+  letter-spacing: 0.05em;
 }
-#icon > i {
+
+.iconbox-icon i {
 	font-size: 40px;
 	margin:30px 30px;
 }
-/*
- * ===================================
- * content p
- * ===================================
- */
- #content p{
- 	color: rgb(119, 119, 119);
- 	font-size: 15px;
- 	text-align: left;
- 	margin-bottom: 24px;
- 	line-height: 2;
- 	margin-block-end:24px;
 
+.iconbox-content p{
+	color: rgb(119, 119, 119);
+	font-size: 15px;
+	margin-bottom: 24px;
+	line-height: 2em;
+	margin-bottom: 24px;
+}
 
- }
- /*
- * ===================================
- * content h6
- * ===================================
- */
- #content h6{
- 	margin-bottom:7.5px;
- 	font-weight: 600;
- 	font-family: 'Popins', serif;
- 	color:rgb(34, 34, 34);
+.iconbox-content h6{
+	margin-bottom:7.5px;
+	font-weight: 600;
+	color:rgb(34, 34, 34);
+}
 
- }
+.iconbox-right {
+	flex-flow: row-reverse;
+}
+
+.iconbox-right .iconbox-content {
+	text-align: right;
+}
