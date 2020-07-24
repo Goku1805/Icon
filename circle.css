@@ -84,19 +84,22 @@ table {
 	flex: 1 0 33.33%;
 	margin-bottom: .5em;
   	letter-spacing: 0.05em;
+  	align-items: flex-start;
+
+
 }
 
 .iconbox-icon i {
-	font-size: 30px;
-	margin:30px 10px;
-	background: lightblue;
-    width: 30px;
-    height: 30px;
+	
+    width: 70px;
+    height:70px;
     border-radius: 50%;
     text-align: center;
-    line-height: 30px;
-    vertical-align: middle;
-    padding: 30px
+    line-height: 70px;
+  	font-size: 35px;
+  	margin-left: 40px;
+  	margin-right: 20px;
+
   	
 }
 
